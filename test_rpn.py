@@ -14,9 +14,9 @@ class TestBasics(unittest.TestCase):
         with self.assertRaises(ValueError):
             result = rpn.calculate("1 2 3 +")
 
-def test_exp(self):
-    result = rpn.calculate("2 4 ^")
-    self.assertEqual(16, result)
+    def test_exp(self):
+        result = rpn.calculate("2 4 ^")
+        self.assertEqual(16, result)
     
     def test_mult(self):
         result = rpn.calculate("4 3 *")
