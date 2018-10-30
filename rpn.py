@@ -38,5 +38,5 @@ def main():
         except ValueError:
         	pass
 
-if __name__ == '__main__': # Note: that's "underscore underscore n a m e ..."
+if __name__ == '__main__': 
     main()
