@@ -23,7 +23,7 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(12, result)
     
     def test_div(self):
-        result = rpn.calculate("24 6 -")
+        result = rpn.calculate("24 6 /")
         self.assertEqual(4, result)
 
 
