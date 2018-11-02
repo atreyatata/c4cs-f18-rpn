@@ -11,15 +11,15 @@ def calculate(arg):
     	except ValueError:
     		val2 = stack.pop()
     		val1 = stack.pop()
-    		if token == '+'
+    		if token == '+':
     			result = val1 + val2
-    		elif toke == '-'
+    		elif toke == '-':
     			result = val1 - val2
-    		elif toke == '^'
+    		elif toke == '^':
     			result = val1 ** val2
-    		elif toke == '*'
+    		elif toke == '*':
     			result = val1 * val2
-    		elif toke == '/'
+    		elif toke == '/':
     			result = val1 / val2
 
     		stack.append(result)
