@@ -13,13 +13,13 @@ def calculate(arg):
     		val1 = stack.pop()
     		if token == '+':
     			result = val1 + val2
-    		elif toke == '-':
+    		elif token == '-':
     			result = val1 - val2
-    		elif toke == '^':
+    		elif token == '^':
     			result = val1 ** val2
-    		elif toke == '*':
+    		elif token == '*':
     			result = val1 * val2
-    		elif toke == '/':
+    		elif token == '/':
     			result = val1 / val2
 
     		stack.append(result)
